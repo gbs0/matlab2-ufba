@@ -3,10 +3,6 @@ def calcMatriz(r1, r2, r3):
   r2 = sum([ int(float(x)) for x in r2 ])
   r3 = sum([ int(float(x)) for x in r3 ])
 
-  print(r1)
-  print(r2)
-  print(r3)
-
   if r1 >= r1 and r2 >= r2 and r3 >= r3:
     return "".join((str((r1 * -1) - ((r1 * -1)-1)), ".0 \n", str(r2 - (r2 - 3)), ".0 \n", str(((r3 * -1) - ((r3 * -1)) - 2) * -1), ".0 \n"))
   
