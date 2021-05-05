@@ -10,7 +10,7 @@ def calcMatriz(r1, r2, r3):
 def f(x, r1, r2, r3):
     s1 = "".join((str((r1 * -1) - ((r1 * -1)- 0)), ".", str((r1 * -1) - ((r1 * -1)- 9)), str((r1 * -1) - ((r1 * -1)- 9)), str((r1 * -1) - ((r1 * -1)- 5)), "\n", str((r1 * -1) - ((r1 * -1)- 0)), ".", str((r1 * -1) - ((r1 * -1)- 9)), str((r1 * -1) - ((r1 * -1)- 5)), str((r1 * -1) - ((r1 * -1)- 7)), "\n", str((r1 * -1) - ((r1 * -1)- 0)), ".", str((r1 * -1) - ((r1 * -1)- 7)), str((r1 * -1) - ((r1 * -1)- 9)), str((r1 * -1) - ((r1 * -1)- 1)), "\n"))
     s2 = "".join((str((r1 * -1) - ((r1 * -1)-1)), " \n", str(r2 - r2), " \n", str(((r3 * -1) - ((r3 * -1))))))
-    
+
     print(x)
     
     if x == 46: 
@@ -23,17 +23,9 @@ def f(x, r1, r2, r3):
 
 separator = " "
 
-# row1 = input()
-# row2 = input()
-# row3 = input()
-
-row1 = ("10 -1 0 9")
-row2 = ("-1 10 -2 7")
-row3 = ("0 -2 10 6")
-
-# row1 = ("3 -1 1 1")
-# row2 = ("3 6 2 0")
-# row3 = ("3 3 7 4")
+row1 = input()
+row2 = input()
+row3 = input()
 
 row1 = row1.split(separator)
 row2 = row2.split(separator)
